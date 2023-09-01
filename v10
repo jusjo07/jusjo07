@@ -30,7 +30,7 @@ void main()
 					else
 					{
 						tail->next=(struct node*)malloc(sizeof (struct node));
-						tail=tail->next;
+						tail=tail->next;(Make the next field of the current tail node point to this new node, effectively adding it to the end of the list.)
 						tail->data=entry;
 					}break;
 			}
